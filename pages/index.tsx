@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
 
+import rolledTape from '../src/assets/images/rolled-tape.png';
+
 const Home: NextPage = () => {
   return (
     <div >
@@ -13,8 +15,17 @@ const Home: NextPage = () => {
       </Head>
       <Navbar />
 
-      <main >
-        <h1>asdfd</h1>
+      <main className='p-8 py-44'>
+        <div className='max-w-7xl mx-auto px-2 lg:px-8 items-center md:flex md:justify-center'>
+          <div>
+            <h1 className='font-bold text-7xl text-secondary-text '>Measuring<br /> everything</h1>
+
+          </div>
+          <div className='max-w-lg h-auto pt-8'>
+            <Image src={rolledTape} alt="Measuring everything" />
+          </div>
+        </div>
+        <div>asdfd</div>
       </main>
 
       <footer >
