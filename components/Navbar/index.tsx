@@ -29,7 +29,7 @@ export default function Navbar() {
                         <div className="relative flex items-center justify-between h-16">
                             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                                 {/* Mobile: Botões de Menu*/}
-                                <Disclosure.Button className="inline-flex items-center justify-center p-2 text-primary-icon hover:text-primary-text hover:bg-second-medium focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-icon">
+                                <Disclosure.Button className="inline-flex items-center justify-center text-primary-icon hover:text-primary-text hover:bg-second-medium focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-icon">
                                     {open ? (
                                         <XIcon className="block h-6 w-6" aria-hidden="true" />
                                     ) : (
