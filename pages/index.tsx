@@ -8,7 +8,7 @@ import tape from '../src/assets/images/tape.png';
 
 const Home: NextPage = () => {
 	return (
-		<div >
+		<div className='max-w-6xl mx-auto'>
 			<Head>
 				<title>Zutterman - Measure Tapes</title>
 				<meta name="description" content="Desenvolvido para o processo seletivo da Calindra" />
@@ -16,18 +16,18 @@ const Home: NextPage = () => {
 			</Head>
 			<Navbar />
 
-			<main className=' py-44'>
-				{/* Sessao01:  */}
-				<div className='max-w-7xl mx-auto px-4 pb-12 lg:px-8 items-center md:flex md:justify-center'>
+			<main>
+				{/* Secao01:  */}
+				<div className='max-w-7xl mx-auto px-4 py-44 lg:px-8 items-center md:flex md:justify-center'>
 					<div>
-						<h1 className='font-bold text-7xl text-secondary-text '>Measuring<br /> everything</h1>
+						<h1 className='font-bold text-6xl text-secondary-text '>Measuring<br /> everything</h1>
 					</div>
 					<div className='max-w-lg h-auto pt-8'>
 						<Image src={rolledTape} alt="Measuring everything" />
 					</div>
 				</div>
-				{/* Sessao02:  */}
-				<div className='bg-secondary-background py-60 max-w-7xl mx-auto pb-12 lg:pl-8 items-center md:flex md:justify-center md:relative'>
+				{/* Secao02:  */}
+				<div className='bg-secondary-background py-32 md:pt-80 max-w-7xl mx-auto lg:pl-8 items-center md:flex md:justify-center md:relative'>
 					<div className='text-white pb-10 px-4 md:justify-end'>
 						<h1 className='font-bold text-5xl '>We are Leader<br /> in Measure Tapes</h1>
 						<p className='font-light text-2xl pt-4'>
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
 					{/* Responsive: Div que mantem texto alinhando com texto da primeira sessão */}
 					{/* TO FIX */}
 					<div id="ghost-responsive" className="hidden md:block w-5/12 h-auto pt-8" />
-					<div className='h-auto pt-8 pl-10 md:absolute md:top-20 md:right-0 md:max-w-2xl'>
+					<div className='h-auto pt-8 pl-10 md:absolute md:top-20 md:right-0 md:max-w-3xl'>
 						<Image src={tape} alt="Measuring everything" />
 					</div>
 				</div>

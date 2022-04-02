@@ -14,6 +14,10 @@
   }
 
   a {}
+
+  body {
+    @apply bg-background;
+  }
 }
 
 @tailwind components;

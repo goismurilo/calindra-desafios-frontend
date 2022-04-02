@@ -58,13 +58,13 @@ export default function Navbar() {
                                 </div>
                                 {/* Descktop: Opções do Menu */}
                                 <div className="hidden items-end sm:block sm:ml-6">
-                                    <div className="flex space-x-4 align-middle justify-center pt-2">
+                                    <div className="flex space-x-4 align-middle justify-center pt-4">
                                         {navigation.map((item) => (
                                             <a
                                                 key={item.name}
                                                 href={item.href}
                                                 className={classNames(
-                                                    'text-secondary-text hover:bg-primary-background hover:text-primary-text px-3 py-2 rounded-md text-lg font-light'
+                                                    'text-secondary-text hover:bg-primary-background hover:text-primary-text px-3 py-2 rounded-md text-xs tracking-[.4em] font-light'
                                                 )}
                                             >
                                                 {item.name}
