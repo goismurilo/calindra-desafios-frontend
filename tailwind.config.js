@@ -12,6 +12,11 @@ module.exports = {
         "primary-text": "#846219",
         "secondary-text": "#716565",
         "primary-icon": "#E2E0B8",
+
+        "primary-background-cali": "#191c1e",
+        "secondary-background-cali": "#25292d",
+        "primary-cali": "#96d226",
+        "secondary-cali": "#32cbcb",
       },
       fontFamily: {
         sans: ["Roboto Condensed", "Inter var", "sans-serif"],
