@@ -8,13 +8,13 @@ import logoCali from '../src/assets/images/logo-calindra.svg'
 
 const Home: NextPage = () => {
 	return (
-		<div className='max-w-6xl mx-auto bg-primary-background-cali h-screen'>
+		<div className=' bg-primary-background-cali pb-60'>
 			<Head>
 				<title>Desafios Calindra</title>
 				<meta name="description" content="Desenvolvido para o processo seletivo da Calindra" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<header className='w-screen flex justify-center p-8'>
+			<header className='w-screen flex justify-center py-8'>
 				<Image src={logoCali} alt='Logo da Calindra' />
 			</header>
 			<main className='flex justify-center align-middle py-60'>
