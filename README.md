@@ -46,7 +46,11 @@ NextJS|<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextj
 React|<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />|
 Tailwind|<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
 Typescript|<img width="26" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />|
-          
+
+E o deploy foi feito nesse endereço:
+
+>https://calindra-desafios-frontend-git-main-goismurilo.vercel.app/
+
 ### ⚙ Como rodar o projeto
 
 Dependendo do seu gerenciador de pacotes, você pode digitar algum desses comandos no seu terminal para o baixar os pacotes necessários, isso vai criar automaticamente a página `node_modules`.
@@ -89,8 +93,12 @@ Para aprender mais sobre o Next.js, dê uma olhada nos seguintes links:
 - [Documentação NextJS](https://nextjs.org/docs) - Saiba mais sobre os recursos e a API do NextJS.
 - [Aprenda sobre NextJS](https://nextjs.org/learn) - Para ver um tutorial interativo com NextJS.
 
-Feito com ♥ por Murilo Gois :wave: [Get in touch!](https://www.linkedin.com/in/goismurilo/)
+<div align=center>
 
+Feito com ♥ por Murilo Gois :wave: [Get in touch!](https://www.linkedin.com/in/goismurilo/)\
 De coração para [Calindra](https://calindra.tech/)💚
 
 [Site para pegar icones -> https://devicon.dev/]: #
+
+<!-- Adveniat (veniat) regnum tuum, fiat voluntas tua, sicut in caelo et in terra
+Amen -->
