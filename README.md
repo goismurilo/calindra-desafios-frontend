@@ -1,6 +1,6 @@
-<figure align="center" style="background-color: #25292d"> 
+<div align="center" style="background-color: #25292d"> 
     <img src="src/assets/images/logo-calindra.svg" />
-</figure>
+</div>
 
 
 ## Desafio Tech Frontend
