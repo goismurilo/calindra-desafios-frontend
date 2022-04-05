@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import facebookIcon from '../../src/assets/icons/facebook_icon.png'
-import twitterIcon from '../../src/assets/icons/twitter_icon.png'
-import youtubeIcon from '../../src/assets/icons/youtube_icon.png'
+import facebookIcon from '../../../src/assets/icons/facebook_icon.png'
+import twitterIcon from '../../../src/assets/icons/twitter_icon.png'
+import youtubeIcon from '../../../src/assets/icons/youtube_icon.png'
 
 export default function Footer() {
     return (
